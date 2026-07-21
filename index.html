@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> | قهوة بلدي وحواديت مالهاش آخر</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><!--ده بيخلي المتصفح يجهز الاتصال بخوادم Google Fonts قبل تحميل الخط، فالموقع يفتح أسرع.-->
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="cofe1.css">
+</head>
+<body>
+
+<!-- ===== الهيدر ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      <span class="logo-icon">☕</span>
+      <span class="logo-text">فنجان </span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="#home">الرئيسية</a>
+      <a href="#menu">المنيو</a>
+      <a href="#story">حكايتنا</a>
+      <a href="#testimonials">آراء الزباين</a>
+      <a href="#contact">تواصل معانا</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-brass nav-cta">احجز طاولة</a>
+
+    <button class="menu-toggle" aria-label="افتح القائمة" onclick="document.querySelector('.main-nav').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<!-- ===== قسم البداية ===== -->
+<section id="home" class="hero">
+  <div class="lattice-corner"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow">قهوة بلدي &nbsp;·&nbsp; من سنة 2007</p>
+    <h1 class="hero-title">حكاية كل كوباية<br>ليها حواديت وراها</h1>
+    <p class="hero-sub">وسط الدومينو ودخان الشيشة وصوت  بينادي على الطلبات، بنقدملك القهوة زي ما كانت زمان بالظبط.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-brass">يلا نشوف المنيو</a>
+      <a href="#story" class="btn btn-outline">اعرف حكايتنا</a>
+    </div>
+  </div>
+</section>
+
+<div class="lattice-divider" aria-hidden="true"></div>
+
+<!-- ===== قسم الحكاية ===== -->
+<section id="story" class="story">
+  <div class="container story-inner">
+    <div class="story-image">
+      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="فنجان قهوة تركي على طاولة نحاسية">
+      <span class="story-badge">2007</span>
+    </div>
+    <div class="story-text">
+      <p class="eyebrow">حكايتنا</p>
+      <h2>أهوة كانت زمان... لسه لحد دلوقتي</h2>
+      <p>بدأت الحكاية في حارة صغيرة جوه القاهرة القديمة، لما الأسطى حسين فتح دكان صغير مالوش غير طاولتين وكرسيين. بقالها دلوقتي جيل ورا جيل، والأهوة لسه بتقدم نفس الطعم، نفس الرايحة، ونفس الونسة.</p>
+      <p>مش بس بنبيع قهوة... إحنا بنحافظ على مكان الناس فيه بتتقابل، تحكي حواديتها، وتلعب طاولة، من غير ما حد يستعجلها.</p>
+      <div class="story-stats">
+        <div><strong>19</strong><span>سنة من الونسة</span></div>
+        <div><strong>3</strong><span>أجيال في نفس المكان</span></div>
+        <div><strong>∞</strong><span>حواديت مالهاش آخر</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lattice-divider" aria-hidden="true"></div>
+
+<!-- ===== قسم المنيو ===== -->
+<section id="menu" class="menu">
+  <div class="container">
+    <p class="eyebrow center">المنيو</p>
+    <h2 class="center">اطلب براحتك</h2>
+
+    <div class="menu-grid">
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1587734195503-904fca47e0d9?w=500&q=80" alt="قهوة تركي">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>قهوة تركي مظبوط</h3>
+            <span class="price">25ج</span>٢٥ ج</span>
+          </div>
+          <p>بن مطحون طازة، بتتسلق على النار زي الأصول.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&q=80" alt="شاي بالنعناع">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>شاي كشري بالنعناع</h3>
+            <span class="price">15 ج</span>
+          </div>
+          <p>كوباية شاي تقيلة، ونعناع فوقها.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1620905969551-0f8f0c7a6d1f?w=500&q=80" alt="سحلب بالمكسرات">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>سحلب بالمكسرات</h3>
+            <span class="price">٣٥ ج</span>
+          </div>
+          <p>دافي ومغطى بجوز الهند والفستق واللوز.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=500&q=80" alt="كركديه بارد">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>كركديه بارد</h3>
+            <span class="price">٢٠ ج</span>
+          </div>
+          <p>منعش ومناسب في أيام الصيف الحر.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=500&q=80" alt="عصير قصب">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>عصير برتقال </h3>
+            <span class="price">٢٠ ج</span>
+          </div>
+          <p>يتعصر قدامك على الطازة، حلو طبيعي.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=500&q=80" alt="جوزية">
+        <div class="menu-card-body">
+          <div class="menu-card-top">
+            <h3>جوزية سخنة</h3>
+            <span class="price">30 ج</span>
+          </div>
+          <p>حليب بجوز الهند والمكسرات، تدفي القلب.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="lattice-divider" aria-hidden="true"></div>
+
+<!-- ===== قسم آراء الزباين ===== -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <p class="eyebrow center light">آراء الزباين</p>
+    <h2 class="center light">الناس بتقول إيه</h2>
+
+    <div class="testimonial-grid">
+      <blockquote class="testimonial-card">
+        <p>". المكان ده مش أهوة، ده بيت تاني."</p>
+        <footer>— عم رجب، صاحب محل مجاور</footer>
+      </blockquote>
+
+      <blockquote class="testimonial-card">
+        <p>"القهوة التركي هنا حاجة تانية خالص. حد فاكر طعم القهوة بتاعة جدته؟ دي هي بالظبط."</p>
+        <footer>— حنين، مصورة فوتوغرافيا</footer>
+      </blockquote>
+
+      <blockquote class="testimonial-card">
+        <p>"جيت أول مرة عشان أصور المكان، ورجعت تاني عشان الونسة. مفيش حتة زيه في الحي."</p>
+        <footer>— محمد، طالب جامعة</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ===== قسم التواصل ===== -->
+<section id="contact" class="contact">
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <p class="eyebrow">تواصل معانا</p>
+      <h2>تعالى زورنا</h2>
+      <p class="contact-desc">عندك مناسبة، ولا نفسك تحجز طاولة لجروبك؟ ابعتلنا وهنرد بسرعة.</p>
+
+      <ul class="contact-list">
+        <li><span class="contact-ic">📍</span>القاهرة</li>
+        <li><span class="contact-ic">🕐</span> يوميًا من الساعة ٤ عصرًا لحد ٢ بعد نص الليل</li>
+        <li><span class="contact-ic">📞</span>01015809489</li>
+      </ul>
+
+      <div class="social-links">
+        <a href="#" aria-label="فيسبوك">f</a>
+        <a href="#" aria-label="انستجرام">◎</a>
+        <a href="#" aria-label="واتساب">☏</a>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <label>
+        الاسم
+        <input type="text" placeholder="اكتب اسمك" required>
+      </label>
+      <label>
+        رقم التليفون
+        <input type="tel" placeholder="" required>
+      </label>
+      <label>
+        رسالتك
+        <textarea rows="4" placeholder="عايز تحجز كام طاولة؟"></textarea>
+      </label>
+      <button type="submit" class="btn btn-brass full-width">ابعت الطلب</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== الفوتر ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>فنجان  © 2026</p>
+    <p class="footer-note">صُنعت بحب وسط بخار القهوة</p>
+  </div>
+</footer>
+
+</body>
+</html>
